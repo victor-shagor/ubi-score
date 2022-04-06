@@ -5,10 +5,12 @@ exports[`renders correctly 1`] = `
   className="makeStyles-wrapper-1"
 >
   <img
+    alt="circle"
     className="makeStyles-circle-2"
     src="circle.png"
   />
   <img
+    alt="triangle"
     className="makeStyles-triangle-3"
     src="triangle.png"
   />

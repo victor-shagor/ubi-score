@@ -10,6 +10,9 @@ const useStyles = makeStyles({
     height: "100vh",
     width: "50vw",
     padding: "0 43px 43px 43px",
+    "@media (max-width: 800px)": {
+      width: "100vw",
+    },
   },
   header: {
     fontFamily: "EpilogueBold",

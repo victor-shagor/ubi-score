@@ -10,6 +10,9 @@ const useStyles = makeStyles({
     backgroundColor: "#141933",
     width: "50vw",
     color: "white",
+    "@media (max-width: 800px)": {
+      display: "none",
+    },
   },
   circle: { position: "absolute", top: "203px", left: "460px" },
   triangle: { position: "absolute", top: "1px", left: "1px" },
