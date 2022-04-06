@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<BrowserRouter>
+  <Routes>
+    <Route
+      element={<Signup />}
+      path="/"
+    />
+    <Route
+      element={<ThankYou />}
+      path="/thankyou"
+    />
+  </Routes>
+</BrowserRouter>
+`;

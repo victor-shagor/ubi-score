@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="makeStyles-wrapper-1"
+>
+  <img
+    className="makeStyles-circle-2"
+    src="circle.png"
+  />
+  <img
+    className="makeStyles-triangle-3"
+    src="triangle.png"
+  />
+  <p
+    className="makeStyles-name-4"
+  >
+    Name
+  </p>
+  <span
+    className="makeStyles-role-5"
+  >
+    Role
+  </span>
+  <p
+    className="makeStyles-text-6"
+  >
+    text
+  </p>
+  <Styled(MuiBox)
+    display="flex"
+  >
+    <Styled(MuiBox)
+      bgcolor="white"
+      borderRadius="10px"
+      height="4px"
+      width="40px"
+    />
+    <Styled(MuiBox)
+      bgcolor="white"
+      borderRadius="10px"
+      className="makeStyles-box-7"
+      height="5px"
+      marginLeft="7px"
+      width="20px"
+    />
+    <Styled(MuiBox)
+      bgcolor="white"
+      borderRadius="10px"
+      className="makeStyles-box-7"
+      height="5px"
+      marginLeft="7px"
+      width="20px"
+    />
+  </Styled(MuiBox)>
+</div>
+`;

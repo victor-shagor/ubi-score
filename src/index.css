@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: 'EpilogueBold';
+  src: local('EpilogueBold'), url(./assets/fonts/Epilogue/static/Epilogue-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'EpilogueSemiBold';
+  src: local('EpilogueSemiBold'), url(./assets/fonts/Epilogue/static/Epilogue-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'EpilogueRegular';
+  src: local('EpilogueRegular'), url(./assets/fonts/Epilogue/static/Epilogue-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'outfit';
+  src: local('outfit'), url(./assets/fonts/Outfit/static/Outfit-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'outfitMedium';
+  src: local('outfitMedium'), url(./assets/fonts/Outfit/static/Outfit-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'outfitSemiBold';
+  src: local('outfitSemiBold'), url(./assets/fonts/Outfit/static/Outfit-SemiBold.ttf) format("truetype");
 }

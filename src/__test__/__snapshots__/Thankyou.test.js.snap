@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="makeStyles-wrapper-1"
+>
+  <Styled(MuiBox)
+    bgcolor="white"
+    borderRadius="0px 0px 20px 20px"
+    height="90%"
+    paddingLeft="45px"
+    paddingRight="77px"
+    paddingTop="58px"
+  >
+    <img
+      alt="logo"
+      src="logo.png"
+    />
+    <p
+      className="makeStyles-header-2"
+    >
+      Thank You
+    </p>
+    <p
+      className="makeStyles-detail-3"
+    >
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor
+       
+    </p>
+    <Button
+      bgColor="#4285DE"
+      text="Back to Home"
+      width="256px"
+    />
+    <p
+      className="makeStyles-read-4"
+    >
+      Question? Email us
+      <a
+        className="makeStyles-link-5"
+        href=""
+      >
+         
+        Login
+      </a>
+    </p>
+  </Styled(MuiBox)>
+</div>
+`;
