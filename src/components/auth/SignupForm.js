@@ -17,7 +17,7 @@ import logo from "assets/images/logo.png";
 const useStyles = makeStyles({
   wrapper: {
     backgroundColor: "#f6f7f8",
-    // height: "100vh",
+    height: "100vh",
     width: "50vw",
     padding: "0 43px 43px 43px",
     "@media (max-width: 800px)": {
