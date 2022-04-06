@@ -187,7 +187,7 @@ const SignupForm = () => {
             <Checkbox color="default" checked />
             <p className={classes.read}>Read and agree</p>
             <p>
-              <a className={classes.link} href="test.com">
+              <a className={classes.link} href="test">
                 Terms and Conditions.
               </a>
             </p>
@@ -201,7 +201,7 @@ const SignupForm = () => {
         </form>
         <p className={classes.read}>
           Already have an account?
-          <a className={classes.link} href="test.com">
+          <a className={classes.link} href="test">
             {" "}
             Login
           </a>

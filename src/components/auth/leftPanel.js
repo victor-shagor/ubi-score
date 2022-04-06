@@ -36,8 +36,8 @@ const LeftPanel = ({ name, role, text }) => {
   const classes = useStyles();
   return (
     <div className={classes.wrapper}>
-      <img src={circle} className={classes.circle} />
-      <img src={triangle} className={classes.triangle} />
+      <img src={circle} className={classes.circle} alt="circle" />
+      <img src={triangle} className={classes.triangle} alt="triangle" />
       <p className={classes.name}>{name}</p>
       <span className={classes.role}>{role}</span>
       <p className={classes.text}>{text}</p>

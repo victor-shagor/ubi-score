@@ -46,7 +46,7 @@ const ThankYou = () => {
         <Button text="Back to Home" width="256px" bgColor="#4285DE" />
         <p className={classes.read}>
           Question? Email us
-          <a className={classes.link} href="">
+          <a className={classes.link} href="email">
             {" "}
             Login
           </a>
